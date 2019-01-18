@@ -1,1 +1,3 @@
-# porjet-foyer-accueil-VIC
+# Porjet foyer d'accueil VIC
+
+Ce repository comporte tous les fihiers pour la réalisation du projet.
