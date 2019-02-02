@@ -14,6 +14,7 @@ Arpès avoir installer sur nos ordinateurs :
 * [Standard.js](https://standardjs.com/) : code standardisé en js (plug-in VScode)
 
 Importation des fichiers de bases nécessaire pour faire tourner une application react, via le terminal: 
+(à ne réaliser qu'à la création d'un site en react)
 
 * `cd projet-foyer-accueil-VIC/Application` (se placer dans le repo au bon endroit)
 * `npx create-react-app vic` (importe les fichiers nécessaire à une app react)
@@ -22,3 +23,15 @@ Lancer l'application sur un serveur local, dans le terminal :
 
 * `cd projet-foyer-accueil-VIC/Application/vic` (se placer dans le repo au bon endroit)
 * `npm start` (lance l'application sur un serveur local)
+
+**Si vous avez cloné ce repo en local ou l'avez fork, il vous faut:**
+
+* vous rendre dans le fichier vic sur votre machine
+* `npm install` (installe localement les dépendances pour faire tourner react)
+* `npm start` (lance l'application sur un serveur local)
+
+## Installation de bootstrap.
+
+Dans le terminal : `npm install bootstrap`
+
+Dans le fichier `vic/src/index.js`: écrire `import 'bootstrap/dist/css/bootstrap.min.css';` 
