@@ -1,0 +1,25 @@
+@import '../../../../scss/variables';
+
+.choix-langues{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li{
+		a{
+			margin: 0 10px;
+			color: $black;
+			text-decoration: none;
+			transition: all 0.3s ease-in-out;
+
+			&:hover{
+				color: $green;
+				font-weight: 800;
+				transition: all 0.3s ease-in-out;
+			}
+		}
+		.active{
+			color: $green;
+			font-weight: 800;
+		}
+	}
+}
