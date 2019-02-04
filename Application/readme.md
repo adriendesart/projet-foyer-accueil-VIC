@@ -34,4 +34,36 @@ Lancer l'application sur un serveur local, dans le terminal :
 
 Dans le terminal : `npm install bootstrap`
 
-Dans le fichier `vic/src/index.js`: écrire `import 'bootstrap/dist/css/bootstrap.min.css';` 
+Dans le fichier `vic/src/index.js`: écrire `import 'bootstrap/dist/css/bootstrap.min.css';`
+
+## Installation de SASS/SCSS
+
+Dans le terminal : `npm install node-sass`
+
+A partir de la react va compiler lui même vos Scss ou Sass.
+
+## Utiliser les icones Font-Awesome avec React
+
+**Installer la librairie Font-Awesome**
+
+```
+$ npm i --save @fortawesome/fontawesome-svg-core
+$ npm i --save @fortawesome/free-solid-svg-icons
+$ npm i --save @fortawesome/react-fontawesome
+```
+
+**Importer les icones que on veut utiliser dans nos components**
+
+```JS
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+```
+
+**Placer l'icone dans le Jsx**
+
+```JS
+<FontAwesomeIcon icon={faCoffee} />
+```
+
+pour plus d'info lire la [doc](https://www.npmjs.com/package/@fortawesome/react-fontawesome)
+
