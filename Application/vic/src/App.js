@@ -2,9 +2,14 @@ import React, { Component, Fragment } from 'react'
 
 import './App.scss'
 
+// Import components globaux
 import Header from './components/Header'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
+
+
+// Import scenes
+import MonParrain from './scenes/MonParrain'
 
 class App extends Component {
   render() {
@@ -13,11 +18,11 @@ class App extends Component {
         <Header />
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-2">
+            <div className="col-md-2 col-nav">
               <Navigation />
             </div>
             <div className="col-md-10">
-              contenu page
+              <MonParrain />
             </div>
           </div>
         </div>
