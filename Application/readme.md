@@ -6,7 +6,8 @@ Vous trouverez dans ce dossier tous les fichiers liés à l'application ainsi qu
 
 Arpès avoir installer sur nos ordinateurs : 
 
-* [Node.js](https://nodejs.org/en/) : télécharger et installer
+* [Node.js](https://nodejs.org/en/) : télécharger et installer pour Windows et MAC
+* [Node.js](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/#install-node-js-from-the-nodesource-repository) : Installation de Node.js et npm pour UBUNTU
 * [Cmder](http://cmder.net/) : pas obligatoire mais préférable si vous êtes sur windows
 * [Hyper](https://hyper.is/) : pas obligatoire mais préférable si vous êtes sur mac/linux
 * [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) : permet d'avoir un affichage des erreurs en réact sur google chrome "débug"
