@@ -1,0 +1,20 @@
+@import '../../scss/variables';
+
+header{
+	font-family: $fontTitle;
+	color: $black;
+	padding: 1em 0;
+	border-bottom: 3px solid $black;
+	div{
+		div{
+			h1{
+				font-size: 1.3em;
+				font-weight: 900;
+				span{
+					color: $green;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
