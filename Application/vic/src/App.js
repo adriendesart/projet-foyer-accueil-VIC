@@ -8,8 +8,12 @@ import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 
 
+
 // Import scenes
 import MonParrain from './scenes/MonParrain'
+import MonCoach from './scenes/MonCoach'
+import MesFormations from './scenes/MesFormations'
+import Profiljeune from './scenes/Profiljeune'
 
 class App extends Component {
   render() {
@@ -22,7 +26,10 @@ class App extends Component {
               <Navigation />
             </div>
             <div className="col-md-10">
-              <MonParrain />
+              <Profiljeune />
+              {/* <MonParrain /> */}
+              {/* <MonCoach /> */}
+              {/* <MesFormations/> */}
             </div>
           </div>
         </div>
