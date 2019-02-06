@@ -47,20 +47,20 @@ class Profiljeune extends Component {
                                 </div>
 
                                 <div className="moncoachdiv">
-                                    <p className="mt-5 coach">Mon coach</p>
+                                    <p className="mt-5 coachColor">Mon coach</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores mollitia beatae accusamus reprehenderit similique consequuntur nulla,
                                 quaerat perspiciatis doloremque illum porro facere laudantium est iure molestias excepturi, natus quo magnam.</p>
-                                <button type="button" class="btn btn-primary float-right">Primary</button>
+                                <button type="button" className="btn btn-primary float-right">Primary</button>
                                 
                                 </div>
 
                                 {/* Ligne de séparation */}
 
                                 <div>
-                                    <p className="parrain parrainmargin">Mon parrain</p>
+                                    <p className="parrainColor parrainmargin">Mon parrain</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores mollitia beatae accusamus reprehenderit similique consequuntur nulla,
                                 quaerat perspiciatis doloremque illum porro facere laudantium est iure molestias excepturi, natus quo magnam.</p>
-                                <button type="button" class="btn btn-info float-right">Info</button>
+                                <button type="button" className="btn btn-info float-right">Info</button>
                                 </div>
                             </div>
 
