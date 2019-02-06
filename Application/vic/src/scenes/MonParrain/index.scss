@@ -1,0 +1,54 @@
+@import '../../scss/variables';
+
+.mentor {
+	.section-fiche{
+		border-bottom: 1px solid $black;
+	}
+	.section-agenda{
+		border-left: 1px solid $black;
+	}
+}
+
+.coach{
+	div{
+		.remarque{
+			div{
+				h4{
+					color: $bleu;
+				}
+				button{
+					background-color: $bleu;
+					border: 2px solid $bleu;
+					transition: all 0.3s ease-in-out;
+					&:hover{
+						background-color: white;
+						color: black;
+						transition: all 0.3s ease-in-out;
+					}
+				}
+			}
+		}
+	}
+}
+
+.parrain{
+	div{
+		.remarque{
+			div{
+				h4{
+					color: $turquoise;
+				}
+				button{
+					background-color: $turquoise;
+					border: 2px solid $turquoise;
+					transition: all 0.3s ease-in-out;
+					&:hover{
+						background-color: white;
+						color: black;
+						transition: all 0.3s ease-in-out;
+					}
+				}
+			}
+		}
+	}
+}
