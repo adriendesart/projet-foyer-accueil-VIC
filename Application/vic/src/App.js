@@ -5,6 +5,7 @@ import './App.scss'
 import Header from './components/Header'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
+import Profiljeune from './scenes/Profiljeune'
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
               <Navigation />
             </div>
             <div className="col-md-10">
-              contenu page
+            <Profiljeune />
             </div>
           </div>
         </div>
