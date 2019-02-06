@@ -1,0 +1,11 @@
+@import '../../../../scss/variables';
+
+.nav-link{
+	font-family: $fontTitle;
+	color: white;
+	font-weight: 800;
+
+	&:hover{
+		color: $green;
+	}
+}

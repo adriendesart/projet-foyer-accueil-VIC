@@ -1,0 +1,20 @@
+@import '../../../../scss/variables';
+
+.sign-in{
+	font-weight: 800;
+	padding: 0.5em;
+	transition: all 0.3s ease-in-out;
+	svg{
+		margin-right: 15px;
+		color: $green;
+	}
+
+	&:hover{
+		background-color: $green;
+		border-radius: 10px;
+		transition: all 0.3s ease-in-out;
+		svg{
+			color: white;
+		}
+	}
+}
