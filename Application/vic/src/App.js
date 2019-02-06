@@ -25,8 +25,8 @@ class App extends Component {
             </div>
             <div className="col-md-10">
               {/*<MonParrain />*/}
-              {/*<MonCoach />*/}
-              <MesFormations/>
+              <MonCoach />
+              {/*<MesFormations/>*/}
             </div>
           </div>
         </div>
