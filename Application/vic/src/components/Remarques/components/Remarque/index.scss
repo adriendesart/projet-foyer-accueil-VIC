@@ -1,0 +1,20 @@
+@import '../../../../scss/variables';
+
+.remarque{
+	div{
+		margin-bottom: 2em;
+		h4{
+			font-family: $fontTitle;
+			font-weight: 800;
+		}
+	}
+	p{
+		font-family: $fontText;
+	}
+	button{
+		font-family: $fontTitle;
+		padding: 0.5em 1em;
+		color: white;
+		cursor: pointer;
+	}
+}

@@ -7,7 +7,7 @@ class Footer extends Component {
 		return (
 			<footer className="container-fluid">
 				<div className="row d-flex justify-content-center">
-					<p>&copy; SRPE - Société Royale Protectrice de l'enface</p>
+					<p>&copy; SRPE - Société Royale Protectrice de l'enfance</p>
 				</div>
 			</footer>
 		);

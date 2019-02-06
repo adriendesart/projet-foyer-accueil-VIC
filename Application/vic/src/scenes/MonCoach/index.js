@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-import './index.scss'
+import '../MonParrain/index.scss'
 
 import Remarques from '../../components/Remarques'
 
-class MonParrain extends Component {
+class MonCoach extends Component {
 	render() {
 		return (
-			<div className="row mentor parrain">
+			<div className="row mentor coach">
 				<div className="col-md-12 section-fiche">
 					Component Ficheperso
 					{/*component réalisé par thomas
@@ -28,4 +28,4 @@ class MonParrain extends Component {
 	}
 }
 
-export default MonParrain
+export default MonCoach

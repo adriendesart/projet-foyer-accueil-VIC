@@ -1,0 +1,12 @@
+@import '../../scss/variables';
+
+.remarques{
+	padding: 2em 0;
+	div{
+		h3{
+			margin-bottom: 40px;
+			font-family: $fontTitle;
+			font-weight: 900;
+		}
+	}
+}
