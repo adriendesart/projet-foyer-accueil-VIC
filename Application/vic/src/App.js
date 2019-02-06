@@ -6,6 +6,7 @@ import './App.scss'
 import Header from './components/Header'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
+import Profiljeune from './scenes/Profiljeune'
 
 
 // Import scenes
@@ -24,6 +25,7 @@ class App extends Component {
               <Navigation />
             </div>
             <div className="col-md-10">
+              {/*<Profiljeune />*/}
               {/*<MonParrain />*/}
               {/*<MonCoach />*/}
               <MesFormations/>
