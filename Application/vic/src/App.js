@@ -4,7 +4,8 @@ import './App.scss'
 
 // Import components globaux
 import Header from './components/Header'
-import Navigation from './components/Navigation'
+import NavAccueil from './components/NavAccueil'
+import NavJeune from './components/NavJeune'
 import Footer from './components/Footer'
 
 
@@ -23,13 +24,14 @@ class App extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-2 col-nav">
-              <Navigation />
+              {/*<NavAccueil />*/}
+              <NavJeune />
             </div>
             <div className="col-md-10">
-              <Profiljeune />
+              {/*<Profiljeune />*/}
               {/* <MonParrain /> */}
               {/* <MonCoach /> */}
-              {/* <MesFormations/> */}
+              <MesFormations/> 
             </div>
           </div>
         </div>
