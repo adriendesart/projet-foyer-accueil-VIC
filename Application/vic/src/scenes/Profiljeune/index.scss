@@ -1,30 +1,9 @@
 @import '/../../scss/variables';
 
 $photojeuneshadow: black;
-$imgphotojeune: 220px;
-$textrecemment: grey;
 $colonne-gauche:78px;
 $colonne-droite:27px;
 
-@mixin lignenoir(){
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    background: #000;
-}
-
-.coachColor{
-    font-weight: bold;
-    color:$bleu;
-}
-
-.parrainColor{
-    font-weight: bold;
-    color:$turquoise;
-}
 
 .logement{
     font-weight: bold;
@@ -43,73 +22,14 @@ $colonne-droite:27px;
 
 
 div.contourjeune{
-    padding: 50px;
+    padding: 50px 0px 50px;
 }
 
-img.photojeune{
-    height: $imgphotojeune;
-    box-shadow: -10px 10px 5px $photojeuneshadow;
-}
-
-ul.logprofil{
-    margin:0px;
-    padding:0px;
-    list-style: none;
-    li.titlenomprenom{
-        font-weight: bold;
-        text-decoration: underline black;
-    }
-}
-
-p.documents{
-    font-weight: bold;
-    text-decoration: underline black;
-}
-
-ul.documentutile{
-    margin:0px;
-    padding:0px;
-    list-style: none;
-}
-
-p.CPASprofiljeune{
-    font-weight: bold;
-    text-decoration: underline black;
-}
 
 .colonne-gauche{
     margin-left: $colonne-gauche;
 }
 
-div{
-    p.recemmentprofiljeune{
-        font-weight: bold;
-        text-decoration: underline black;
-    }
-    p.textrecemment{
-        color: $textrecemment;
-    }
-}
-
-.moncoachdiv{
-    position: relative;
-    }
-    .moncoachdiv:after{
-        @include lignenoir;
-        margin-bottom: -70px;
-    }
-
-
-.parrainmargin{
-    margin-top: 150px;
-}
-
-
 .colonne-droite{
     margin-left:$colonne-droite;
-}
-
-p.agendaprofiljeune{
-    font-weight: bold;
-    text-decoration: underline black;
 }
