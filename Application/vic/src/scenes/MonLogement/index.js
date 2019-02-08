@@ -23,6 +23,8 @@ class MonLogement extends Component {
 						<Card />
 						<Card />
 						<Card />
+						<Card />
+						<Card />
 					</div>
 					<div className="col-md-3 logement-filtre">
 						<FiltreForm />
