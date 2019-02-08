@@ -13,11 +13,12 @@ class MonLogement extends Component {
 						<h2>Mon Logement</h2>
 					</div>
 					<div className="col-md-3 logement-found">
-						<p>09 Logements trouvés</p>
+						<p>08 Logements trouvés</p>
 					</div>
 				</div>
 				<div className="row mt-5 mb-4">
 					<div className="col-md-8 offset-md-1 logement-cards">
+						<Card />
 						<Card />
 						<Card />
 						<Card />
