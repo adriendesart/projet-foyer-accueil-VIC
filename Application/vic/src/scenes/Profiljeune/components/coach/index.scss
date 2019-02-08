@@ -1,0 +1,24 @@
+@import '../../../../scss/variables';
+@mixin lignenoir() {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background: #000;
+}
+
+.moncoachdiv {
+    position: relative;
+}
+
+.moncoachdiv:after {
+    @include lignenoir;
+    margin-bottom: -70px;
+}
+
+.coachColor {
+    font-weight: bold;
+    color: $bleu;
+}

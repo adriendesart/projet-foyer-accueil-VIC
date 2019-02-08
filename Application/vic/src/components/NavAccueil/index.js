@@ -4,7 +4,7 @@ import './index.scss'
 
 import NavLink from './components/NavLink'
 
-class Navigation extends Component {
+class NavAccueil extends Component {
 	render() {
 		return (
 			<nav className="row nav flex-column align-items-center nav-principal">
@@ -16,4 +16,4 @@ class Navigation extends Component {
 	}
 }
 
-export default Navigation
+export default NavAccueil
