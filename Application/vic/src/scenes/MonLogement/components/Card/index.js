@@ -8,7 +8,14 @@ class Card extends Component {
 			<div className="card logement-card mb-5">
                 <img src={maison} className="card-img-top" alt="Photo d'une maison"/>
                 <div className="logement-card-body">
-                    <p>contenu de la carte</p>
+                    <div className="col-md-6 logement-card-info pt-3">
+                        <p>Type</p>
+                        <p>M²</p>
+                        <p>Lieu</p>
+                    </div>
+                    <div className="col-md-6 pt-3">
+                        <p>Prix</p>
+                    </div>
                 </div>
             </div>
 		);

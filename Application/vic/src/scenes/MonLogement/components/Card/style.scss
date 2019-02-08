@@ -1,3 +1,13 @@
 .logement-card {
     width: 30%;
+    .logement-card-body {
+        display: flex;
+        justify-content: center;
+        div p {
+            text-align: center;
+        }
+        .logement-card-info {
+            border-right: 1px solid #000;
+        }
+    }
 }

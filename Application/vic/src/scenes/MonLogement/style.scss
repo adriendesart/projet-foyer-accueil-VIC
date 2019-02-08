@@ -5,16 +5,15 @@
     font-size: 30px;
     line-height: 30px;
     color: $violet;
-}
-
-.logement-page-title h2:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 5px;
-    height: 2px;
-    width: calc(100% - 240px);
-    background: #000;
+    &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+        height: 2px;
+        width: calc(100% - 240px);
+        background: #000;
+    }
 }
 
 .logement-found p {
