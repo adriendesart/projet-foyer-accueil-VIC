@@ -18,14 +18,14 @@ class MonLogement extends Component {
 				</div>
 				<div className="row mt-5 mb-4">
 					<div className="col-md-8 offset-md-1 logement-cards">
-						<Card />
-						<Card />
-						<Card />
-						<Card />
-						<Card />
-						<Card />
-						<Card />
-						<Card />
+						<Card type='Maison 3F' taille='504m²' lieu='Wangenies' prix='249.000€'/>
+						<Card type='Appartement' taille='120m²' lieu='Charleroi' prix='120 000€'/>
+						<Card type='Maison' taille='120m²' lieu='Charleroi' prix='120 000€'/>
+						<Card type='Maison' taille='120m²' lieu='Charleroi' prix='120 000€'/>
+						<Card type='Appartement' taille='120m²' lieu='Charleroi' prix='120 000€'/>
+						<Card type='Appartement' taille='120m²' lieu='Charleroi' prix='120 000€'/>
+						<Card type='Maison' taille='120m²' lieu='Charleroi' prix='120 000€'/>
+						<Card type='Maison' taille='120m²' lieu='Charleroi' prix='120 000€'/>
 					</div>
 					<div className="col-md-3 logement-filtre">
 						<FiltreForm />
