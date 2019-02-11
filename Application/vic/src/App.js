@@ -1,34 +1,25 @@
 import React, { Component, Fragment } from 'react'
+import { BrowserRouter as Router } from "react-router-dom";
 
 import './App.scss'
 
 // Import components globaux
 import Header from './components/Header'
-import Navigation from './components/Navigation'
 import Footer from './components/Footer'
-
-
-// Import scenes
-import MonParrain from './scenes/MonParrain'
-import MonJob from './scenes/MonJob'
+import ContainerRoute from './components/ContainerRoute'
 
 class App extends Component {
   render() {
     return (
-      <Fragment>
-        <Header />
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-2 col-nav">
-              <Navigation />
-            </div>
-            <div className="col-md-10">
-              <MonJob />
-            </div>
+      <Router>
+        <Fragment>
+          <Header />
+          <div className="container-fluid">
+            <ContainerRoute />
           </div>
-        </div>
-        <Footer />
-      </Fragment>
+          <Footer />
+        </Fragment>
+      </Router>
     );
   }
 }

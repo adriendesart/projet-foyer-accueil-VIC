@@ -1,0 +1,35 @@
+@import '/../../scss/variables';
+
+$photojeuneshadow: black;
+$colonne-gauche:78px;
+$colonne-droite:27px;
+
+
+.logement{
+    font-weight: bold;
+    color: $violet;
+}
+
+.monjob{
+    font-weight: bold;
+    color:$orange;
+}
+
+.formation{
+    font-weight: bold;
+    color:$green;
+}
+
+
+div.contourjeune{
+    padding: 50px 0px 50px;
+}
+
+
+.colonne-gauche{
+    margin-left: $colonne-gauche;
+}
+
+.colonne-droite{
+    margin-left:$colonne-droite;
+}
