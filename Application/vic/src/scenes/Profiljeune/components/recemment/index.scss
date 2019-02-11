@@ -1,0 +1,10 @@
+@import '../../../../scss/variables';
+$textrecemment: grey;
+p.recemmentprofiljeune {
+    font-weight: bold;
+    text-decoration: underline black;
+}
+
+p.textrecemment {
+    color: $textrecemment;
+}
