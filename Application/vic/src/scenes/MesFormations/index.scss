@@ -1,0 +1,18 @@
+@import '../../scss/variables';
+
+.section-formations{
+	position: relative;
+	padding: 2em 0;
+	div{
+		h2{
+			color: $green;
+		}
+	}
+	.col-filter:before{
+		content: "";
+		width: 1px;
+		height: 100%;
+		background-color: $black;
+		position: absolute;
+	}
+}

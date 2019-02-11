@@ -1,0 +1,37 @@
+@import '../../../../scss/variables';
+
+.carte-formation{
+	margin-bottom: 2em;
+	padding: 0;
+	width: 30%;
+
+	img{
+		border-bottom: 3px solid $green;
+	}
+	div{
+		position: relative;
+		h3, a{
+			$font-family: $fontTitle;
+		}
+		p{
+			font-family: $fontText;
+			margin-bottom: 3em;
+		}
+		a{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			background-color: $green;
+			border: 1px solid $green;
+			border-radius: 0;
+			color: white;
+			transition: all 0.3s ease-in-out;
+
+			&:hover{
+				background-color: white;
+				color: $green;
+				transition: all 0.3s ease-in-out;
+			}
+		}
+	}
+}

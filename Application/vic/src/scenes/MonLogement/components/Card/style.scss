@@ -1,0 +1,35 @@
+@import '../../../../scss/variables';
+
+.logement-card {
+    width: 30%;
+    .logement-card-body {
+        display: flex;
+        justify-content: center;
+        div p {
+            text-align: center;
+        }
+        .logement-card-info {
+            border-right: 1px solid #000;
+        }
+    }
+}
+
+.logement-card-body-upper {
+    height: calc(100% - 44px);
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.logement-card-body-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    div .logement-button {
+        width: 100%;
+        color: #fff;
+        background-color: $violet;
+    }
+}

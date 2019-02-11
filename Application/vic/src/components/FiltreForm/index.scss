@@ -1,0 +1,27 @@
+@import '../../scss/variables';
+
+.Form-filter{
+	form{
+		h3{
+			font-family: $fontText;
+		}
+		input, select {
+			margin-bottom: 1em;
+			padding: 0.5em 1em;
+			font-family: $fontText;
+			border:2px solid $violet;
+		}
+		input[type="submit"]{
+			margin-top: 1em;
+			background-color: $black;
+			color: white;
+			border: 2px solid $black;
+			transition: all 0.3s ease-in-out;
+			&:hover{
+				transition: all 0.3s ease-in-out;
+				background-color: white;
+				color: $black;
+			}
+		}
+	}
+}
