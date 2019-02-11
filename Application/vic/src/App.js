@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 
 // Import scenes
 import MonParrain from './scenes/MonParrain'
+import MonJob from './scenes/MonJob'
 
 class App extends Component {
   render() {
@@ -22,7 +23,7 @@ class App extends Component {
               <Navigation />
             </div>
             <div className="col-md-10">
-              <MonParrain />
+              <MonJob />
             </div>
           </div>
         </div>
