@@ -10,9 +10,21 @@ header{
 			h1{
 				font-size: 1.3em;
 				font-weight: 900;
-				span{
-					color: $green;
-					text-transform: uppercase;
+				a{
+					display: block;
+					color: $black;
+					transform: scale(1);
+					transition: all 0.3s ease;
+					&:hover{
+						color: $black;
+						text-decoration: none;
+						transform: scale(1.1);
+						transition: all 0.3s ease;
+					}
+					span{
+						color: $green;
+						text-transform: uppercase;
+					}
 				}
 			}
 		}
