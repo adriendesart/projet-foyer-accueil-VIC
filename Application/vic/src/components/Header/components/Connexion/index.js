@@ -23,6 +23,16 @@ class Connexion extends Component {
     	fade.remove()
   	}
 
+  	componentDidMount () {
+  		const log = localStorage.getItem('log')
+  		this.setState({ goToProfile: log })
+  	}
+
+  	componentDidUpdate () {
+  		const log = this.state.goToProfile
+  		localStorage.setItem('log', log)
+  	}
+
 	render() {
 
 		if(!this.state.goToProfile){
@@ -71,8 +81,6 @@ class Connexion extends Component {
 						<FontAwesomeIcon icon={faUserCircle} className="fa-2x conn-icon"/>
 						Prenom Nom
 					</a>
-					{/*A retirer lors de la liaison avec la BD*/}
-					<Redirect to={'/profiljeune'} ></Redirect>
 				</Fragment>
 			)
 		}
