@@ -7,40 +7,38 @@ import Coach from './components/coach'
 import Parrain from './components/parrain'
 import Agenda from './components/agenda'
 
-
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import './index.scss'
 
 class Profiljeune extends Component {
     render() {
         return (
             <Fragment>
-                <div className="row justify-content-md-center contourjeune">
-                <Identite />
+<div className="lignetoutenbas">
+<div className="offset-1 row justify-content-md-center contourjeune">
+                    <Identite />
                     <div className="col-md-4 m-0 p-0">
-                    <Document />
-                    <Cpas />
+                        <Document />
+                        <Cpas />
                     </div>
                 </div>
+</div>
 
                 {/* Fin du premier block  */}
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="offset-1 col-md-11">
                         <div className="row">
                             <div className="col-md-6 colonne-gauche">
-                            <Recemment />
-                            <Coach />
+                                <Recemment />
+                                <Coach />
 
                                 {/* Ligne de séparation */}
 
-                            <Parrain />    
+                                <Parrain />
                             </div>
 
                             {/* Colonne de droite */}
-                            <div className="col-md-4 colonne-droite">
-                            <Agenda />
+                            <div className="col-md-5 colonne-droite">
+                                <Agenda />
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,33 @@
+@import '../../../../../../scss/variables';
+.logoorange {
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    border: 5px solid $orange;
+    border-radius: 50%;
+    background-color: $orange;
+}
+
+div.imagejobformulaire{
+    display: flex;
+    margin: auto 0 auto 15px;
+}
+
+p.textedroiteimage{
+    margin: auto 0 auto 15px;
+}
+
+h3.titleformulairejob {
+    color: $orange;
+}
+
+button.buttonformulairejob {
+    color: white;
+    background-color: $orange;
+    display: flex;
+    margin: 0 auto;
+}
+
+.form-control{
+    border: 2px solid black;
+}
