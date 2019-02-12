@@ -1,5 +1,36 @@
+@import '../../../../scss/variables';
+
 a{
-	svg{
+	margin: 1em 0;
+	color: white;
+
+	&:hover{
+		text-decoration: none;
 		color: white;
+	}
+
+	svg{
+		margin-bottom: 0;
+		transition: all 0.3s ease-in-out;
+		&:hover{
+			margin-bottom: 10px;
+			transition: all 0.3s ease-in-out;
+		}
+	}
+
+	.link-orange{
+		color: $orange;
+	}
+	.link-violet{
+		color: $violet;
+	}
+	.link-turquoise{
+		color: $turquoise;
+	}
+	.link-bleu{
+		color: $bleu;
+	}
+	.link-green{
+		color: $green;
 	}
 }

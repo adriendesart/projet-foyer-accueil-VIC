@@ -16,26 +16,31 @@ class NavJeune extends Component {
 					icon={faBriefcase}
 					title="Mon Job"
 					path="/monjob"
+					color="orange"
 				/>
 				<Link
 					icon={faHome}
 					title="Mon Logement"
 					path="/monlogement"
+					color="violet"
 				/>
 				<Link
 					icon={faHandshake}
 					title="Mon Parrain"
 					path="/monparrain"
+					color="turquoise"
 				/>
 				<Link
 					icon={faFileSignature}
 					title="Mon Coach"
 					path="/moncoach"
+					color="bleu"
 				/>
 				<Link
 					icon={faGraduationCap}
 					title="Mes Formations"
 					path="/mesformations"
+					color="green"
 				/>
 */}			</nav>
 		);
