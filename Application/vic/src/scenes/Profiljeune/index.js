@@ -9,8 +9,6 @@ import Agenda from './components/agenda'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import './index.scss'
 
 class Profiljeune extends Component {

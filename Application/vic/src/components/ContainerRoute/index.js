@@ -10,25 +10,27 @@ import MonParrain from '../../scenes/MonParrain'
 import MonCoach from '../../scenes/MonCoach'
 import MesFormations from '../../scenes/MesFormations'
 import Profiljeune from '../../scenes/Profiljeune'
+import MonLogement from '../../scenes/MonLogement'
 
 class ContainerRoute extends Component {
 	render() {
 		return (
 			<Fragment>
 				<Switch>
-				<div className="row">
-              		<div className="col-md-2 col-nav">
-                		<Route exact path="/" component={NavAccueil} />
-                		<Route path="/:profiljeune" component={NavJeune} />
-              		</div>
-              		<div className="col-md-10">
-                		<Route path="/profiljeune" component={Profiljeune} />
-          				<Route path="/monparrain" component={MonParrain} />
-          				<Route path="/moncoach" component={MonCoach} />
-          				<Route path="/mesformations" component={MesFormations} />
-              		</div>
-            	</div>
-        		</Switch>
+				  <div className="row">
+        		<div className="col-md-2 col-nav">
+              <Route exact path="/" component={NavAccueil} />
+              <Route path="/:connexion" component={NavJeune} />
+            </div>
+              <div className="col-md-10">
+                <Route path="/profiljeune" component={Profiljeune} />
+          			<Route path="/monparrain" component={MonParrain} />
+          			<Route path="/moncoach" component={MonCoach} />
+          			<Route path="/mesformations" component={MesFormations} />
+                <Route path="/monlogement" component={MonLogement} />
+              </div>
+            </div>
+        	</Switch>
     		</Fragment>
 		);
 	}

@@ -1,0 +1,20 @@
+import React, { Component, Fragment } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import './index.scss'
+
+
+class Link extends Component {
+	render() {
+		return (
+			<Fragment>
+				<a href={this.props.path} className="d-flex flex-column align-items-center">
+					<FontAwesomeIcon icon={this.props.icon} />
+					{this.props.title}
+				</a>
+			</Fragment>
+		);
+	}
+}
+
+export default Link

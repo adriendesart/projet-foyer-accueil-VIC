@@ -1,0 +1,33 @@
+@import '../../scss/variables';
+
+.logement-page-title h2 {
+    position: relative;
+    font-size: 30px;
+    line-height: 30px;
+    color: $violet;
+    &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+        height: 2px;
+        width: calc(100% - 240px);
+        background: #000;
+    }
+}
+
+.logement-found p {
+    font-size: 30px;
+    line-height: 30px;
+    color: $violet;
+}
+
+.logement-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logement-filtre {
+    border-left: 1px solid #000;
+}
