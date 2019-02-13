@@ -19,6 +19,17 @@ p.textedroiteimage{
 
 h3.titleformulairejob {
     color: $orange;
+    position: relative;
+    font-weight: bold;
+    &:after{
+        content: '';
+        position: absolute;
+        width: calc(100% - 230px);
+        height: 1px;
+        bottom: 0;
+        background: #000;
+        margin-left: 90px;
+    }
 }
 
 button.buttonformulairejob {

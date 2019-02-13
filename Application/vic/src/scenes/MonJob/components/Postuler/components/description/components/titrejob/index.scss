@@ -1,0 +1,17 @@
+@import '../../../../../../../../scss/variables';
+
+
+h3.titleformulaire3job{
+    color: $orange;
+    position: relative;
+    margin-bottom: 100px;
+    font-weight: bold;
+    &:after{
+        content: '';
+        position: absolute;
+        width: calc(100% - 200px);
+        height: 1px;
+        bottom: 0;
+        background: #000;
+    }
+}
