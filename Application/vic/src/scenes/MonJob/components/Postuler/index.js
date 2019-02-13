@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+import Titrejob from './components/description/components/titrejob'
 import Description from './components/description'
 import Competence from './components/description/components/competence'
 import Formulaire from './components/formulaire'
@@ -12,11 +13,16 @@ class Postuler extends Component {
         return (
             <Fragment>
                 <div className="row pt-5 pb-5">
-                    <div className="offset-1 col-md-6">
-                        <Description />
-                    </div>
-                    <div className="offset-1 col-md-4">
-                        <Competence />
+                    <div className="offset-1 col-md-11">
+                        <Titrejob />
+                        <div className="row">
+                            <div className="col-md-6">
+                                <Description />
+                            </div>
+                            <div className="col-md-5">
+                                <Competence />
+                            </div>
+                        </div>
                     </div>
 
                     <div className="offset-1 col-md-7">

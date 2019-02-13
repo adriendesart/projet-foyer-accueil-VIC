@@ -9,7 +9,7 @@ class Formulaire extends Component {
     render() {
         return (
             <Fragment>
-                <h3 className="titleformulairejob">Formulaire</h3>
+                <h3 className="titleformulairejob mb-5 mt-5">Formulaire</h3>
                 <p className="titleformulairejob2">Postuler directement à un job grace au formulaire.</p>
                 <form>
                     <textarea class="form-control mb-5" id="exampleFormControlTextarea1" rows="5">Lettre de motivation, commentaire ...</textarea>

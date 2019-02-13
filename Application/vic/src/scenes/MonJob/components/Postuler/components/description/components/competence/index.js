@@ -9,8 +9,8 @@ class Competence extends Component {
                 <div className="row">
                     <div className="col-md-6">
                     <p className="titrecdilieu">Titre CDI Lieu</p>
-                    <h3 className="ptaillegeantjob">Compétence</h3>
-                    <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
+                    <p className="ptaillegeantjob">Compétence</p>
+                    <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
                     </div>
                     <div className="col-md-6">
                     </div>
