@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import profil from '../../thomas.jpg'
+import profil from '../../img/thomas.jpg'
 import './index.scss'
 
 class Identite extends Component {
