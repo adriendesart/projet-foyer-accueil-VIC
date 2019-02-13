@@ -15,4 +15,16 @@
 		background-color: $black;
 		position: absolute;
 	}
-}
+	.col-filter{
+		.Form-filter{
+			form{
+				input, select{
+					border:2px solid $green;
+				}
+				input[type="submit"]{
+					border: 2px solid $black;
+				}
+			}
+		}
+	}
+} 

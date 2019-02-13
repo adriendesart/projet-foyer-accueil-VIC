@@ -18,3 +18,50 @@
 		}
 	}
 }
+
+.modal-conn{
+	.modal-dialog{
+		.modal-content{
+			border: 3px solid $green;
+			.modal-header{
+				border-bottom: none;
+				h5{
+					font-family: $fontTitle;
+					font-weight: 800;
+					text-transform: uppercase;
+				}
+			}
+			.modal-body{
+				.form-conn{
+					div{
+						input, label{
+							font-family: $fontText;
+						}
+					}
+					button{
+						background-color: $green;
+						font-weight: 800;
+						border: 2px solid $green;
+						transition: all 0.3s ease-in-out;
+						&:hover{
+							background-color: white;
+							transition: all 0.3s ease-in-out;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.identifiant{
+	color: $black;
+	margin: 0;
+	&:hover{
+		color: $green;
+	}
+	.conn-icon{
+		margin-right: 10px;
+		color: $green;
+	}
+}

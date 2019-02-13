@@ -6,7 +6,6 @@ import Recemment from './components/recemment'
 import Coach from './components/coach'
 import Parrain from './components/parrain'
 import Agenda from './components/agenda'
-
 import './index.scss'
 
 class Profiljeune extends Component {
