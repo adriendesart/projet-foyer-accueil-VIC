@@ -33,7 +33,7 @@ class MesFormations extends Component {
 				<div className="col-md-11 offset-md-1">
 					<Pagination />
 				</div>
-			</div>
+			</div> 
 		);
 	}
 }

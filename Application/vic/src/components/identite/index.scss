@@ -1,0 +1,48 @@
+@import '../../scss/variables';
+
+@mixin lignenoir100pourcent() {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background: #000;
+}
+
+
+.imagediv{
+    width: 80%;
+    img.photojeune {
+        width: 100%;
+        margin-right: 10px;
+        box-shadow: -10px 10px 5px black;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .imagediv{
+        width: 50%;
+        margin-bottom: 30px;
+        img.photojeune {
+            width: 100%;
+            margin-right: 10px;
+            box-shadow: -10px 10px 5px black;
+        }
+    }
+}
+
+
+ul.logprofil {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    li.titlenomprenom {
+        display: inline-block;
+        position: relative;
+        font-weight: bold;
+    }
+    .titlenomprenom:after{
+       @include lignenoir100pourcent();
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../../../scss/variables';
+
+@mixin lignenoir340pourcent() {
+    content: '';
+    position: absolute;
+    width: 340%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background: #000;
+}
+
+
+p.CPASprofiljeune {
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    &:after{
+        @include lignenoir340pourcent();
+    }
+}

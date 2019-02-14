@@ -1,5 +1,15 @@
 @import '/../../scss/variables';
 
+@mixin lignenoir100pourcent() {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background: #000;
+}
+
 $photojeuneshadow: black;
 $colonne-gauche:78px;
 $colonne-droite:27px;
@@ -9,7 +19,6 @@ $colonne-droite:27px;
     font-weight: bold;
     color: $violet;
 }
-
 .monjob{
     font-weight: bold;
     color:$orange;
@@ -22,14 +31,23 @@ $colonne-droite:27px;
 
 
 div.contourjeune{
-    padding: 50px 0px 50px;
+    padding: 50px 0px;
 }
 
-
-.colonne-gauche{
-    margin-left: $colonne-gauche;
+.lignetoutenbas{
+    position: relative;
+    &:after{
+        @include lignenoir100pourcent();
+    }
 }
-
 .colonne-droite{
-    margin-left:$colonne-droite;
+    border-left: 1px solid $black;
 }
+
+// .colonne-gauche{
+//     margin-left: $colonne-gauche;
+// }
+
+// .colonne-droite{
+//     margin-left:$colonne-droite;
+// }

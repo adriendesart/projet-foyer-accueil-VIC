@@ -1,0 +1,24 @@
+import React, { Component, Fragment } from 'react'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+
+class Rdv extends Component {
+    render() {
+        return (
+            <Fragment>
+                    <div className="col-md-3">
+                        <p>23|01</p>
+                        <p>9:00</p>
+
+                    </div>
+                    <div className="col-md-9">
+                        <p>Mon coach</p>
+                        <p>Rendez-vous avec mon coach</p>
+                        <p><FontAwesomeIcon icon={faMapMarkerAlt}/> Lieu du rdv</p>
+                    </div>
+            </Fragment>
+        );
+    }
+}
+export default Rdv

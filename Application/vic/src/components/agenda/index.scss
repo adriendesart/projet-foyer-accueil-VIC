@@ -1,0 +1,36 @@
+@import '../../scss/variables';
+@mixin lignenoir100pourcent() {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background: #000;
+}
+
+// @mixin lignenoir100pourcentgauche() {
+//     content: '';
+//     position: absolute;
+//     width: 1px;
+//     height: 100%;
+//     bottom: 0;
+//     left: 0;
+//     background: #000;
+// }
+
+p.agendaprofiljeune {
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    &:after{
+        @include lignenoir100pourcent();
+    }
+}
+
+div.lignemilieugauche{
+    position: relative;
+    &:after{
+        // @include lignenoir100pourcentgauche();
+    }
+}
