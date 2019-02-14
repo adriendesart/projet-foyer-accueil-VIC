@@ -1,0 +1,40 @@
+@import '../../../../scss/variables';
+
+.jobcard{
+	margin-bottom: 2em;
+	padding: 0;
+	width: 30%;
+
+	div.wrapperImg{
+		border-bottom: 2px solid $orange;
+		div{
+			width: 50%;
+		}
+	}
+	div.card-body{
+		position: relative;
+		a{
+			$font-family: $fontTitle;
+		}
+		p{
+			font-family: $fontText;
+			margin-bottom: 3em;
+		}
+		a{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			background-color: $orange;
+			border: 1px solid $orange;
+			border-radius: 0;
+			color: white;
+			transition: all 0.3s ease-in-out;
+
+			&:hover{
+				background-color: white;
+				color: $orange;
+				transition: all 0.3s ease-in-out;
+			}
+		}
+	}
+}
