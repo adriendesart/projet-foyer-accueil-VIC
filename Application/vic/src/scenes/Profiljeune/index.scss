@@ -40,7 +40,9 @@ div.contourjeune{
         @include lignenoir100pourcent();
     }
 }
-
+.colonne-droite{
+    border-left: 1px solid $black;
+}
 
 // .colonne-gauche{
 //     margin-left: $colonne-gauche;
