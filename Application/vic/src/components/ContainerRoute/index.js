@@ -11,6 +11,7 @@ import MonCoach from '../../scenes/MonCoach'
 import MesFormations from '../../scenes/MesFormations'
 import Profiljeune from '../../scenes/Profiljeune'
 import MonLogement from '../../scenes/MonLogement'
+import MonJob from '../../scenes/MonJob'
 
 class ContainerRoute extends Component {
 	render() {
@@ -28,6 +29,7 @@ class ContainerRoute extends Component {
           			<Route path="/moncoach" component={MonCoach} />
           			<Route path="/mesformations" component={MesFormations} />
                 <Route path="/monlogement" component={MonLogement} />
+								<Route path="/monjob" component={MonJob} />
               </div>
             </div>
         	</Switch>
