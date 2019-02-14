@@ -13,6 +13,7 @@ import Profiljeune from '../../scenes/Profiljeune'
 import DetailLogement from '../../scenes/DetailLogement'
 import Postuler from '../../scenes/MonJob/components/Postuler'
 import MonLogement from '../../scenes/MonLogement'
+import MonJob from '../../scenes/MonJob'
 import Accueil from '../../scenes/Accueil'
 
 class ContainerRoute extends Component {
@@ -26,12 +27,13 @@ class ContainerRoute extends Component {
               <Route path="/:connexion" component={NavJeune} />
             </div>
               <div className="col-md-10">
-								<Route path="/Accueil" component={Accueil} />
+								<Route exact path="/" component={Accueil} />
                 <Route path="/profiljeune" component={Profiljeune} />
           			<Route path="/monparrain" component={MonParrain} />
           			<Route path="/moncoach" component={MonCoach} />
           			<Route path="/mesformations" component={MesFormations} />
                 <Route path="/monlogement" component={MonLogement} />
+								<Route path="/monjob" component={MonJob} />
                 <Route path="/MonJob/Postuler" component={Postuler} />
                 <Route path="/DetailLogement" component={DetailLogement} />  
               </div>
