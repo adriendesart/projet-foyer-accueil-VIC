@@ -17,7 +17,7 @@ class Header extends Component {
 					{/*affichage Titre de l'application*/}
 					<div className="col-md-8 d-flex justify-content-center">
 						<h1>
-							<span>Srpe</span> - Dashboard
+							<a href="/"><span>Srpe</span> - Dashboard</a>
 						</h1>
 					</div>
 					{/*affichage connexion ou profil*/}

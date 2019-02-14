@@ -1,25 +1,21 @@
 @import '../../../../scss/variables';
-$textrecemment: grey;
 
-@mixin lignenoir100pourcent() {
+@mixin lignenoir340pourcent() {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 340%;
     height: 1px;
     bottom: 0;
     left: 0;
     background: #000;
 }
 
-p.recemmentprofiljeune {
+
+p.CPASprofiljeune {
     font-weight: bold;
     position: relative;
     display: inline-block;
     &:after{
-        @include lignenoir100pourcent();
+        @include lignenoir340pourcent();
     }
-}
-
-p.textrecemment {
-    color: $textrecemment;
 }
