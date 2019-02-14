@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Aleo|Raleway');
 
+*{
+	box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;

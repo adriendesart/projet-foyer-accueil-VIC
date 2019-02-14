@@ -53,3 +53,15 @@
 		}
 	}
 }
+
+.identifiant{
+	color: $black;
+	margin: 0;
+	&:hover{
+		color: $green;
+	}
+	.conn-icon{
+		margin-right: 10px;
+		color: $green;
+	}
+}
