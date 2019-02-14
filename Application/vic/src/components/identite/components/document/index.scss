@@ -1,5 +1,4 @@
 @import '../../../../scss/variables';
-$textrecemment: grey;
 
 @mixin lignenoir100pourcent() {
     content: '';
@@ -11,7 +10,7 @@ $textrecemment: grey;
     background: #000;
 }
 
-p.recemmentprofiljeune {
+p.documents{
     font-weight: bold;
     position: relative;
     display: inline-block;
@@ -20,6 +19,8 @@ p.recemmentprofiljeune {
     }
 }
 
-p.textrecemment {
-    color: $textrecemment;
+ul.documentutile{
+    margin:0px;
+    padding:0px;
+    list-style: none;
 }
