@@ -30,4 +30,14 @@
 
 .logement-filtre {
     border-left: 1px solid #000;
-}
+    .Form-filter{
+            form{
+                input, select{
+                    border:2px solid $violet;
+                }
+                input[type="submit"]{
+                    border: 2px solid $black;
+                }
+            }
+        }
+} 
