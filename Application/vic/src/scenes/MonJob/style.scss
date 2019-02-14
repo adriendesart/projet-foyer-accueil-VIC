@@ -1,0 +1,77 @@
+@import '../../scss/variables';
+
+.jobcard {
+    border: 1px solid #aaa;
+    width : 230px;
+    flex-wrap: wrap;
+    img {
+        width:80px;
+        height:80px;
+    }
+}
+
+.card-h{
+    height:100%;
+    p{
+    margin-top:15px;
+    line-height: 35%;
+    }
+}
+
+.card-body{
+    height:100%;
+    line-height: 100%;
+    margin-left:5px;
+    hr {
+        border-top: 1px solid $orange;
+        margin-top:-10px;
+        margin-bottom:20px;
+        margin-left:-10px;
+        margin-right:-6px;
+        padding:0;
+        }
+}
+
+.card-f {
+    height:100%;
+    color:white;
+    margin-right:-43px;
+    button {
+        background-color:$orange;
+        border-radius: 0px;
+        width:100px;
+        border:none; 
+    }
+    button:hover {
+        background-color:black;
+        border:none; 
+    }
+    button:active {
+        background-color: $green !important;
+      }
+}   
+
+.separateur {
+    margin: 10px 5px;
+}
+
+.filter-jobs {
+    input {
+        width:100%;
+        margin-bottom:15px;
+        border: 2px solid $orange;
+        border-radius: 2px;
+    }
+    select {
+        width:100%;
+        margin-bottom:15px;
+        border: 2px solid $orange;
+        border-radius: 2px;
+    }
+    h3 {
+        font-family: "Aleo", serif;
+        font-size: 1.75rem; 
+    }
+
+}
+
