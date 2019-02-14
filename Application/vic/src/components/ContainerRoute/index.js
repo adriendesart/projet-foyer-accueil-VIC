@@ -10,6 +10,7 @@ import MonParrain from '../../scenes/MonParrain'
 import MonCoach from '../../scenes/MonCoach'
 import MesFormations from '../../scenes/MesFormations'
 import Profiljeune from '../../scenes/Profiljeune'
+import DetailLogement from './scenes/DetailLogement'
 
 class ContainerRoute extends Component {
 	render() {
@@ -26,6 +27,7 @@ class ContainerRoute extends Component {
           				<Route path="/monparrain" component={MonParrain} />
           				<Route path="/moncoach" component={MonCoach} />
           				<Route path="/mesformations" component={MesFormations} />
+						<Route path="/DetailLogement" component={DetailLogement} />  
               		</div>
             	</div>
         		</Switch>
