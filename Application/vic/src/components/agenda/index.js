@@ -9,16 +9,15 @@ class Agenda extends Component {
         return (
             <Fragment>
                 <p className="agendaprofiljeune">Agenda</p>
-                <div className="lignemilieugauche row">
-            <Rdv />
-            <Rdv />
-            <Rdv />
-            <Rdv />
-            <Rdv />
-
+                <div className="row">
+                    <Rdv />
+                    <Rdv />
+                    <Rdv />
+                    <Rdv />
+                    <Rdv />
                 </div>
             </Fragment>
-        );
+        ); 
     }
 }
 export default Agenda
