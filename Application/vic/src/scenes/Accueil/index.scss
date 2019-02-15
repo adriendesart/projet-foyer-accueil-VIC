@@ -1,0 +1,78 @@
+@import '../../scss/variables';
+
+.titreVic {
+
+    padding-top: 70px;
+}
+
+.logoVic {
+    padding-top: 70px;
+    width: 70%;
+}
+
+.descriptionVic  {
+    line-height:25pt;
+    padding-top: 30px;
+}
+
+.paEventTitle {
+    font-weight: bold;
+}
+
+.paExempleEvent {
+    height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 200px;
+}
+
+.paNameEvent {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.paEventDate {
+    position: absolute;
+    top: 0px;
+    left: 205px;
+    width: 60px;
+    height: 50px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    line-height: 13px;  
+    background-color: $black;
+    display: block;
+    font-size: 20px;
+    }
+
+.btnMore {
+    background-color: $black;
+}
+
+.paContactTitle {
+    font-weight: bold;
+}
+
+.paInfo {
+    font-weight: bold;
+}
+
+.paMail {
+    margin-top: 5px;
+}
+
+.paObjectMessage {
+    margin-top: 25px;
+}
+
+.paMessage {
+    margin-top: 25px;
+}
+
+
+.btnSend {
+    background-color: $black;
+    margin-top: 15px;
+}
+

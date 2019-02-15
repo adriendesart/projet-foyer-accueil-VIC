@@ -5,14 +5,27 @@ header{
 	color: $black;
 	padding: 1em 0;
 	border-bottom: 3px solid $black;
+	background-color: white;
 	div{
 		div{
 			h1{
 				font-size: 1.3em;
 				font-weight: 900;
-				span{
-					color: $green;
-					text-transform: uppercase;
+				a{
+					display: block;
+					color: $black;
+					transform: scale(1);
+					transition: all 0.3s ease;
+					&:hover{
+						color: $black;
+						text-decoration: none;
+						transform: scale(1.1);
+						transition: all 0.3s ease;
+					}
+					span{
+						color: $green;
+						text-transform: uppercase;
+					}
 				}
 			}
 		}

@@ -1,0 +1,30 @@
+@import '../../scss/variables';
+
+.section-job{
+    position: relative;
+    padding: 2em 0;
+    div{
+        h2{
+            color: $orange;
+        }
+    }
+    .col-filter:before{
+        content: "";
+        width: 1px;
+        height: 100%;
+        background-color: $black;
+        position: absolute;
+    }
+    .col-filter{
+        .Form-filter{
+            form{
+                input, select{
+                    border:2px solid $orange;
+                }
+                input[type="submit"]{
+                    border: 2px solid $black;
+                }
+            }
+        }
+    }
+}
