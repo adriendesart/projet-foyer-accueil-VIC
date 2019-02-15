@@ -15,6 +15,7 @@ import Postuler from '../../scenes/MonJob/components/Postuler'
 import MonLogement from '../../scenes/MonLogement'
 import MonJob from '../../scenes/MonJob'
 import Accueil from '../../scenes/Accueil'
+import SignUpPage from '../../scenes/Inscription'
 
 class ContainerRoute extends Component {
 	render() {
@@ -35,7 +36,8 @@ class ContainerRoute extends Component {
                 <Route path="/monlogement" component={MonLogement} />
 								<Route path="/monjob" component={MonJob} />
                 <Route path="/MonJob/Postuler" component={Postuler} />
-                <Route path="/DetailLogement" component={DetailLogement} />  
+                <Route path="/DetailLogement" component={DetailLogement} /> 
+								<Route path="/Inscription" component={SignUpPage} /> 
               </div>
             </div>
         	</Switch>
