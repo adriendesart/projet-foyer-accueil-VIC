@@ -38,7 +38,7 @@ class DetailLogement extends Component {
 				</div>
 
 				<div className="row description">
-					<div className="col-md-8">
+					<div className="col-md-9">
 						<h3>Description</h3>
 						<p>
 							Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget
@@ -88,7 +88,7 @@ class DetailLogement extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-4">
+					<div className="col-md-3">
 						<h3>Coordonnées</h3>
 						<p>
 							Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget
