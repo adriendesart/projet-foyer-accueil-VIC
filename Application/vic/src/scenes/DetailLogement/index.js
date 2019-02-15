@@ -8,7 +8,7 @@ class DetailLogement extends Component {
 			<div className="container">
 			
 				<div className="row">
-					<div className="col-md-12">
+					<div className="col-md-12 title">
 						<h3>Gallerie</h3>
 					</div>
 				</div>
@@ -26,12 +26,12 @@ class DetailLogement extends Component {
 						</div>
 						<div className="row imgRight">
 							<div className="col-md-12">
-								<img src={photo} className="ptteImg img-fluid" alt="Photo d'une maison" />
+								<img src={photo} className="pttesImg img-fluid" alt="Photo d'une maison" />
 							</div>
 						</div>
 						<div className="row imgRight">
 							<div className="col-md-12">
-								<img src={photo} className="ptteImg img-fluid" alt="Photo d'une maison" />
+								<img src={photo} className="pttesImg img-fluid" alt="Photo d'une maison" />
 							</div>
 						</div>
 					</div>

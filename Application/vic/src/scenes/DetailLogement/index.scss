@@ -1,28 +1,28 @@
-.gdeImg{
-    width: 720px;
-    height: 405px;
+// TITLE 
+.title{
+    margin-top: 7vh;
 }
 
-/* resize images */
+// GALLERIE 
+.gdeImg{
+    width: 720px;
+    height: auto;
+}
+
  .resizeGdeImg{
     width: 100%;
     height: auto;
 }
 
+.pttesImgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto; 
+} 
+
+// DESCRIPTION
 .description{
-    margin-top: 10vh;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
 }
-
-.pttesImages{
-    height: 405px;
-}
-/*.imgRight{
-
-    height: 100px;
-} */
-
-/* resize images */
-/* .pttImage{
-    width: 100%;
-    height: auto;
-}  */
