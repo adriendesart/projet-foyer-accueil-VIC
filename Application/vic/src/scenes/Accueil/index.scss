@@ -1,41 +1,19 @@
 @import '../../scss/variables';
 
-.titreVic {
 
-    padding-top: 70px;
-}
-
-.logoVic {
-    padding-top: 70px;
-    width: 70%;
-}
-
-.descriptionVic  {
-    line-height:25pt;
-    padding-top: 30px;
-}
-
-.paEventTitle {
-    font-weight: bold;
-}
-
-.paExempleEvent {
-    height: auto; 
-    width: auto; 
-    max-width: 250px; 
-    max-height: 200px;
-}
-
-.paNameEvent {
-    margin-top: 15px;
-    font-weight: bold;
+.accueil-intro, .form-contact, .evenement{
+    padding: 3em 0;
+    h2{
+        font-weight: 800;
+        font-family: $fontTitle;
+    }
 }
 
 .paEventDate {
     position: absolute;
-    top: 0px;
-    left: 205px;
-    width: 60px;
+    top: 0;
+    right: 0;
+    min-width: 60px;
     height: 50px;
     padding-top: 10px;
     color: white;
@@ -44,35 +22,42 @@
     background-color: $black;
     display: block;
     font-size: 20px;
+}
+
+.evenement{
+    border-bottom: 1px solid $black;
+    border-top: 1px solid $black;
+    div{
+        div{
+            div{
+                .acc-img-wrapper{
+                    position: relative;
+                    img{
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
-
-.btnMore {
-    background-color: $black;
 }
 
-.paContactTitle {
-    font-weight: bold;
+.form-contact{
+    div{
+        form{
+            padding-left: 15px;
+            input,textarea{
+                margin-bottom: 15px;
+                border: 2px solid $black;
+                padding: 0.5em 1em;
+                color: $turquoise;
+            }
+            input::-webkit-input-placeholder {
+                color:$turquoise;
+            }
+            input:-moz-placeholder {
+                color:$turquoise;
+            }
+        }
+    }
 }
-
-.paInfo {
-    font-weight: bold;
-}
-
-.paMail {
-    margin-top: 5px;
-}
-
-.paObjectMessage {
-    margin-top: 25px;
-}
-
-.paMessage {
-    margin-top: 25px;
-}
-
-
-.btnSend {
-    background-color: $black;
-    margin-top: 15px;
-}
-
