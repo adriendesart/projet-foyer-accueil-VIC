@@ -14,7 +14,7 @@ class App extends Component {
       <Router>
         <Fragment>
           <Header />
-          <div className="container-fluid">
+          <div className="container-fluid wrapper-content">
             <ContainerRoute />
           </div>
           <Footer />

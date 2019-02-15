@@ -22,7 +22,7 @@ class ContainerRoute extends Component {
 			<Fragment>
 				<Switch>
 				  <div className="row">
-        		<div className="col-md-2 col-nav">
+        		<div className="col-md-2 col-nav d-flex flex-column align-items-center">
               <Route exact path="/" component={NavAccueil} />
               <Route path="/:connexion" component={NavJeune} />
             </div>
