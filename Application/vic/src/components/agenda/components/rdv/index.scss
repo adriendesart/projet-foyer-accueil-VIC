@@ -1,0 +1,34 @@
+@import '../../../../scss/variables';
+
+.rdv-box{
+	font-family: $fontText;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	div{
+		h3, p{
+			margin: 0;
+		}
+	}
+	.date{
+		position: relative;
+		p:first-child{
+			font-size: 1.3em;
+			font-weight: 800;
+		}
+		&:after{
+			content: '';
+			position: absolute;
+			width: 2px;
+			height: 100%;
+			top: 0;
+			right: 0;
+			background-color: $black;
+		}
+	}
+	.description{
+		h3{
+			font-size: 1em;
+			font-weight: 800;
+		}
+	}
+}

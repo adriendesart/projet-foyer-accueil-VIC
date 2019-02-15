@@ -6,8 +6,8 @@ class Identite extends Component {
     render() {
         return (
             <Fragment>
-                <div className="imagediv">
-                    <div className="col-md-3 m-0 p-0">
+                <div className="col-md-3 m-0 p-0">
+                    <div className="imagediv">
                         <img className="photojeune" src={profil} alt="" srcset="" />
                     </div>
                 </div>

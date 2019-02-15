@@ -77,10 +77,17 @@ class Connexion extends Component {
 		}else{
 			return (
 				<Fragment>
-					<a href="/profiljeune" className="identifiant">
-						<FontAwesomeIcon icon={faUserCircle} className="fa-2x conn-icon"/>
-						Prenom Nom
-					</a>
+					<div className="identifiant">
+						<span>
+							<FontAwesomeIcon icon={faUserCircle} className="fa-2x conn-icon"/>
+							Prenom Nom
+						</span>
+						<nav className="menu-profil">
+							<a href="/profiljeune">Ton Profil</a>
+							<a href="/">Accueil</a>
+							<button>Se déconnecter</button>
+						</nav>
+					</div>
 				</Fragment>
 			)
 		}
