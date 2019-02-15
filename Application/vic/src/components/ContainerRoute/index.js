@@ -26,7 +26,7 @@ class ContainerRoute extends Component {
               <Route path="/:connexion" component={NavJeune} />
             </div>
               <div className="col-md-10">
-								<Route path="/Accueil" component={Accueil} />
+								<Route exact path="/" component={Accueil} />
                 <Route path="/profiljeune" component={Profiljeune} />
           			<Route path="/monparrain" component={MonParrain} />
           			<Route path="/moncoach" component={MonCoach} />
