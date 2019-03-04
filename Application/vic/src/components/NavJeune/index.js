@@ -42,7 +42,7 @@ class NavJeune extends Component {
 					path="/mesformations"
 					color="green"
 				/>
-*/}			</nav>
+ 			</nav>
 		);
 	}
 }
