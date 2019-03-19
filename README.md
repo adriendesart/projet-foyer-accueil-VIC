@@ -10,23 +10,21 @@ Ce repository comporte tous les fichiers pour la réalisation du projet.
 
 * Ludovic Patho
 
-**Chef d'équipe**:
+**Chefs d'équipes**:
 
-* Adrien Desart
+*Première équipe*: (janvier 2019 à fin mars 2019)
 
-* Justine Crenier
+Adrien Desart, Justine Crenier
 
-**Développeur**:
+*Seconde équipe*: (avril 2019 à ...)
 
-* Axel Avaux
+**Développeurs**:
 
-* Thomas Bailleux
+*Première équipe*: (janvier 2019 à fin mars 2019)
 
-* Gary Petrovski
+Axel Avaux, Thomas Bailleux, Gary Petrovski, Jérémy Creola, Ruben Pereira
 
-* Jérémy Creola
-
-* Ruben Pereira
+*Seconde équipe*: (avril 2019 à ...)
 
 ## Où trouver les informations:
 
