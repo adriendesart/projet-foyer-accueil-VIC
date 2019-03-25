@@ -18,6 +18,8 @@ Adrien Desart, Justine Crenier
 
 *Seconde équipe*: (avril 2019 à ...)
 
+Nicolas Poulain, Pierre Noël
+
 **Développeurs**:
 
 *Première équipe*: (janvier 2019 à fin mars 2019)
@@ -25,6 +27,8 @@ Adrien Desart, Justine Crenier
 Axel Avaux, Thomas Bailleux, Gary Petrovski, Jérémy Creola, Ruben Pereira
 
 *Seconde équipe*: (avril 2019 à ...)
+
+Amaury Dotrice, Amory Aubert, Cassandra Caestecker, Nikita Denis
 
 ## Où trouver les informations:
 
