@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 import profil from '../../img/thomas.jpg'
 import './index.scss'
 
-import Firebase from 'firebase/app'
+import Firebase from 'firebase'
 
 class Identite extends Component {
 
@@ -21,7 +21,7 @@ class Identite extends Component {
                     querySnapshot.forEach(function(doc) {
                         // doc.data() is never undefined for query doc snapshots
                     document.querySelector("#name").innerHTML = doc.data().Nom
-            
+                    document.querySelector("#mail").innerHTML = doc.data().Email
                     });
                 })
                 .catch(function(error) {
@@ -49,7 +49,7 @@ class Identite extends Component {
                         <li>26 Décembre 1992</li>
                         <li>(27 ans)</li>
                         <li>CHARLEROI</li>
-                        <li className="mt-5">thomasbailleux2@gmail.com</li>
+                        <li className="mt-5" id="mail"></li>
                     </ul>
                 </div>
             </Fragment>

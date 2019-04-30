@@ -9,7 +9,6 @@ import './index.scss'
 import FormConn from './components/FormConn'
 
 import firebase, { auth, provider } from '../../../Firebase/firebase'
-import Firebase from 'firebase'
 
 class Connexion extends Component { 
 
@@ -89,7 +88,7 @@ class Connexion extends Component {
 						<nav className="menu-profil">
 							<a href="/profiljeune">Ton Profil</a>
 							<a href="/">Accueil</a>
-							<button type="button" onClick={Firebase.doSignOut}>Se déconnecter</button>
+							<button type="button" onClick={alert("test")}>Se déconnecter</button>
 							
 						</nav>
 					</div>
