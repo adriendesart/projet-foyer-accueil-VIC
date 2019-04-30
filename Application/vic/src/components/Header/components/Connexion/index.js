@@ -8,11 +8,15 @@ import './index.scss'
 
 import FormConn from './components/FormConn'
 
+import firebase, { auth, provider } from '../../../Firebase/firebase'
+import Firebase from 'firebase'
+
 class Connexion extends Component { 
 
 	state = {
-    	goToProfile : false
-  	}
+		goToProfile : false,
+	}
+	
 
   	goToProfile = (event) => {
   		event.preventDefault()
@@ -20,7 +24,7 @@ class Connexion extends Component {
     	const fade = document.getElementsByClassName('modal-backdrop')[0]
     	const body = document.getElementsByTagName('body')[0]
     	body.classList.remove('modal-open')
-    	fade.remove()
+    	// fade.remove()
   	}
 
   	componentDidMount () {
@@ -31,8 +35,8 @@ class Connexion extends Component {
   	componentDidUpdate () {
   		const log = this.state.goToProfile
   		localStorage.setItem('log', log)
-  	}
-
+	  }
+	  
 	render() {
 
 		if(!this.state.goToProfile){
@@ -85,7 +89,8 @@ class Connexion extends Component {
 						<nav className="menu-profil">
 							<a href="/profiljeune">Ton Profil</a>
 							<a href="/">Accueil</a>
-							<button>Se déconnecter</button>
+							<button type="button" onClick={Firebase.doSignOut}>Se déconnecter</button>
+							
 						</nav>
 					</div>
 				</Fragment>

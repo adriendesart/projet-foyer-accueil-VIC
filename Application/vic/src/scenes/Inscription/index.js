@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { FirebaseContext } from '../../components/Firebase';
+import Firebase from 'firebase/app'
 
 
 const SignUpPage = () => (
   <div>
-    <h1>SignUp</h1>
+    <h1>Ajouter un utilisateur</h1>
     <FirebaseContext.Consumer>
         {firebase => <SignUpForm firebase={firebase} />}
     </FirebaseContext.Consumer>
@@ -38,6 +39,32 @@ class SignUpForm extends Component {
         this.setState({ error });
       });
 
+      let firestore = Firebase.firestore()
+      let docRef
+
+      let role = document.querySelector('#role')
+      let result = role.options[role.selectedIndex].value
+
+      if(result === "jeune") docRef = firestore.collection('Jeunes')
+      else if(result === "coach") docRef = firestore.collection("Coaches")
+      else docRef = firestore.collection("Parrains")   
+      
+           Firebase.auth().onAuthStateChanged((user) => {
+            if (user) {
+              docRef.add({
+                Id : user.uid,
+                Nom : username,
+                Email : email,
+                Password : passwordOne,
+               })
+            } else {
+              // User not logged in or has just logged out.
+            }
+          });
+
+      
+                
+              
     event.preventDefault();
   }
 
@@ -51,7 +78,7 @@ class SignUpForm extends Component {
         username,
         email,
         passwordOne,
-        passwordTwo,
+        passwordTwo,     
         error,
     } = this.state;
 
@@ -68,31 +95,38 @@ class SignUpForm extends Component {
           value={username}
           onChange={this.onChange}
           type="text"
-          placeholder="Full Name"
+          placeholder="Prénom "
         />
         <input
           name="email"
           value={email}
           onChange={this.onChange}
           type="text"
-          placeholder="Email Address"
+          placeholder="Email"
         />
         <input
           name="passwordOne"
           value={passwordOne}
           onChange={this.onChange}
           type="password"
-          placeholder="Password"
+          placeholder="Mot de passe"
         />
         <input
           name="passwordTwo"
           value={passwordTwo}
           onChange={this.onChange}
           type="password"
-          placeholder="Confirm Password"
+          placeholder="Confirmer mot de passe"
         />
+
+        <select  id="role" onChange={this.onChange}>
+          <option value="jeune">Jeune</option>
+          <option value="coach">Coach</option>
+          <option value="parrain">Parrain</option>
+        </select>
+
         <button disabled={isInvalid} type="submit">
-            Sign Up
+            Création
         </button>
 
         {error && <p>{error.message}</p>}
