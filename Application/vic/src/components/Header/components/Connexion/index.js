@@ -88,7 +88,7 @@ class Connexion extends Component {
 						<nav className="menu-profil">
 							<a href="/profiljeune">Ton Profil</a>
 							<a href="/">Accueil</a>
-							<button type="button" onClick={alert("test")}>Se déconnecter</button>
+							<button type="button" onClick={() => this.doSignOut()} >Se déconnecter</button>
 							
 						</nav>
 					</div>
