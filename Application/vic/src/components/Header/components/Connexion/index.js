@@ -84,7 +84,7 @@ class Connexion extends Component {
 						</span>
 						<nav className="menu-profil">
 							<a href="/profiljeune">Ton Profil</a>
-							<a href="/">Accueil</a>
+							<a href="/">Accuesil</a>
 							<button>Se déconnecter</button>
 						</nav>
 					</div>
