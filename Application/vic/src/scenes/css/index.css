@@ -1,0 +1,16 @@
+.mentor .section-fiche { border-bottom: 1px solid #22212C; }
+
+.mentor .section-agenda { border-left: 1px solid #22212C; }
+
+.coach div .remarque div h4 { color: #015579; }
+
+.coach div .remarque div button { background-color: #015579; border: 2px solid #015579; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+.coach div .remarque div button:hover { background-color: white; color: black; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+.parrain div .remarque div h4 { color: #1E9285; }
+
+.parrain div .remarque div button { background-color: #1E9285; border: 2px solid #1E9285; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+.parrain div .remarque div button:hover { background-color: white; color: black; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+/*# sourceMappingURL=index.css.map */

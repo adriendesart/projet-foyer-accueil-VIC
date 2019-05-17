@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACC,SADQ,CACR,GAAG,CAAA,EACF,aAAa,EAAE,GAAG,GAKlB;;AAPF,AAGE,SAHO,CACR,GAAG,CAEF,EAAE,CAAA,EACD,WAAW,ECJF,SAAS,EAAE,UAAU,EDK9B,WAAW,EAAE,GAAG,GAChB;;AANH,AAQC,SARQ,CAQR,CAAC,CAAA,EACA,WAAW,ECRF,MAAM,EAAE,KAAK,GDStB;;AAVF,AAWC,SAXQ,CAWR,MAAM,CAAA,EACL,WAAW,ECZD,SAAS,EAAE,UAAU,EDa/B,OAAO,EAAE,SAAS,EAClB,KAAK,EAAE,KAAK,EACZ,MAAM,EAAE,OAAO,GACf",
+    "sources": [
+        "../Remarque/index.scss",
+        "../../../../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

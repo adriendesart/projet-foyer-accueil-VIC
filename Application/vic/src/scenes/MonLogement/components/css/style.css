@@ -1,0 +1,16 @@
+.logement-card { width: 30%; }
+
+.logement-card .logement-card-body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.logement-card .logement-card-body div p { text-align: center; }
+
+.logement-card .logement-card-body .logement-card-info { border-right: 1px solid #000; }
+
+.logement-card-body-upper { height: calc(100% - 44px); }
+
+.logement-card-body-upper div { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.logement-card-body-bottom { width: 100%; position: absolute; bottom: 0; }
+
+.logement-card-body-bottom div .logement-button { width: 100%; color: #fff; background-color: #AB1D81; }
+/*# sourceMappingURL=style.css.map */

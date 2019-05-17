@@ -1,0 +1,12 @@
+.carte-formation { margin-bottom: 2em; padding: 0; width: 30%; }
+
+.carte-formation img { border-bottom: 3px solid #9CC54D; }
+
+.carte-formation div { position: relative; }
+
+.carte-formation div p { font-family: "Aleo", serif; margin-bottom: 3em; }
+
+.carte-formation div a { position: absolute; bottom: 0; right: 0; background-color: #9CC54D; border: 1px solid #9CC54D; border-radius: 0; color: white; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+.carte-formation div a:hover { background-color: white; color: #9CC54D; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+/*# sourceMappingURL=index.css.map */

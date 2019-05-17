@@ -16,6 +16,7 @@ import MonLogement from '../../scenes/MonLogement'
 import MonJob from '../../scenes/MonJob'
 import Accueil from '../../scenes/Accueil'
 import SignUpPage from '../../scenes/Inscription'
+import Profiladmin from '../../scenes/Admin'
 
 class ContainerRoute extends Component {
 	render() {
@@ -29,6 +30,7 @@ class ContainerRoute extends Component {
             </div>
               <div className="col-md-10">
 								<Route exact path="/" component={Accueil} />
+								<Route path="/Admin" component={Profiladmin} />
                 <Route path="/profiljeune" component={Profiljeune} />
           			<Route path="/monparrain" component={MonParrain} />
           			<Route path="/moncoach" component={MonCoach} />

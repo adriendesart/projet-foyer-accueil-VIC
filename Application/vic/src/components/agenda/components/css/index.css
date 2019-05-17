@@ -1,0 +1,12 @@
+.rdv-box { font-family: "Aleo", serif; margin-top: 1.5em; margin-bottom: 1.5em; }
+
+.rdv-box div h3, .rdv-box div p { margin: 0; }
+
+.rdv-box .date { position: relative; }
+
+.rdv-box .date p:first-child { font-size: 1.3em; font-weight: 800; }
+
+.rdv-box .date:after { content: ''; position: absolute; width: 2px; height: 100%; top: 0; right: 0; background-color: #22212C; }
+
+.rdv-box .description h3 { font-size: 1em; font-weight: 800; }
+/*# sourceMappingURL=index.css.map */

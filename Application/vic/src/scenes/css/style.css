@@ -1,0 +1,14 @@
+.logement-page-title h2 { position: relative; font-size: 30px; line-height: 30px; color: #AB1D81; }
+
+.logement-page-title h2:after { content: ''; position: absolute; right: 0; bottom: 5px; height: 2px; width: calc(100% - 240px); background: #000; }
+
+.logement-found p { font-size: 30px; line-height: 30px; color: #AB1D81; }
+
+.logement-cards { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.logement-filtre { border-left: 1px solid #000; }
+
+.logement-filtre .Form-filter form input, .logement-filtre .Form-filter form select { border: 2px solid #AB1D81; }
+
+.logement-filtre .Form-filter form input[type="submit"] { border: 2px solid #22212C; }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+.nav-jeune-link { margin: 1em 0; color: white; }
+
+.nav-jeune-link:hover { text-decoration: none; color: white; }
+
+.nav-jeune-link svg { margin-bottom: 0; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+.nav-jeune-link svg:hover { margin-bottom: 10px; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+.nav-jeune-link .link-orange { color: #ED6B1F; }
+
+.nav-jeune-link .link-violet { color: #AB1D81; }
+
+.nav-jeune-link .link-turquoise { color: #1E9285; }
+
+.nav-jeune-link .link-bleu { color: #015579; }
+
+.nav-jeune-link .link-green { color: #9CC54D; }
+/*# sourceMappingURL=index.css.map */

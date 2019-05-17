@@ -1,0 +1,14 @@
+.logoorange { margin-top: 10px; font-size: 30px; color: white; border: 5px solid #ED6B1F; border-radius: 50%; background-color: #ED6B1F; }
+
+div.imagejobformulaire { display: -webkit-box; display: -ms-flexbox; display: flex; margin: auto 0 auto 15px; }
+
+p.textedroiteimage { margin: auto 0 auto 15px; }
+
+h3.titleformulairejob { color: #ED6B1F; position: relative; font-weight: bold; }
+
+h3.titleformulairejob:after { content: ''; position: absolute; width: calc(100% - 230px); height: 1px; bottom: 0; background: #000; margin-left: 90px; }
+
+button.buttonformulairejob { color: white; background-color: #ED6B1F; display: -webkit-box; display: -ms-flexbox; display: flex; margin: 0 auto; }
+
+.form-control { border: 2px solid black; }
+/*# sourceMappingURL=index.css.map */

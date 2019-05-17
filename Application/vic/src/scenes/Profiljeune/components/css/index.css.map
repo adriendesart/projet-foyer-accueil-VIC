@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAaA,AAAA,CAAC,AAAA,qBAAqB,CAAC,EACnB,WAAW,EAAE,IAAI,EACjB,QAAQ,EAAE,QAAQ,EAClB,OAAO,EAAE,YAAY,GAIxB;;AAPD,AAII,CAJH,AAAA,qBAAqB,AAIjB,MAAM,CAAA,EAbP,OAAO,EAAE,EAAE,EACX,QAAQ,EAAE,QAAQ,EAClB,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,GAAG,EACX,MAAM,EAAE,CAAC,EACT,IAAI,EAAE,CAAC,EACP,UAAU,EAAE,IAAI,GASf;;AAGL,AAAA,CAAC,AAAA,cAAc,CAAC,EACZ,KAAK,EAtBO,IAAI,GAuBnB",
+    "sources": [
+        "../recemment/index.scss",
+        "../../../../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

@@ -1,0 +1,8 @@
+.choix-langues { list-style: none; margin: 0; padding: 0; }
+
+.choix-langues li a { margin: 0 10px; color: #22212C; text-decoration: none; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+.choix-langues li a:hover { color: #9CC54D; font-weight: 800; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+.choix-langues li .active { color: #9CC54D; font-weight: 800; }
+/*# sourceMappingURL=index.css.map */

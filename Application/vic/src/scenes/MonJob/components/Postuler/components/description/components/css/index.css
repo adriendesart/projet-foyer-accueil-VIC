@@ -1,0 +1,4 @@
+h3.titleformulaire3job { color: #ED6B1F; position: relative; margin-bottom: 100px; font-weight: bold; }
+
+h3.titleformulaire3job:after { content: ''; position: absolute; width: calc(100% - 200px); height: 1px; bottom: 0; background: #000; }
+/*# sourceMappingURL=index.css.map */

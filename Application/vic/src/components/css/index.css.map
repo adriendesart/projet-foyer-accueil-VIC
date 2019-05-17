@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC,EACR,KAAK,EAAE,IAAI,GAKZ;;AAND,AAEE,SAFO,CAEP,GAAG,AAAA,WAAW,CAAC,EACb,KAAK,EAAE,IAAI,EACX,YAAY,EAAE,IAAI,GACnB;;AAGH,AAAA,eAAe,CAAC,EACd,SAAS,EAAE,KAAK,EAChB,MAAM,EAAE,EAAE,GACX;;AAED,AAAA,WAAW,CAAC,EACV,SAAS,EAAE,GAAG,EACd,MAAM,EAAE,UAAU,GACnB",
+    "sources": [
+        "../identiteadmin/index.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
