@@ -19,6 +19,14 @@ h5 {
     margin: 0 auto;
 }
 
+.four::after {
+    text-decoration: none;
+}
+
+.four:active {
+    text-decoration: none;
+}
+
 .four:visited {
     text-decoration: none;
     color: black;
@@ -34,6 +42,5 @@ h5 {
 }
 
 .btn:focus {
-    border: 0!important;
-}
-
+    text-decoration: none;
+  }

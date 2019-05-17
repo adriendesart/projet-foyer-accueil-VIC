@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-
+import Administration from './components/administration'
 import Formations from './components/formations'
 import Jobs from './components/jobs'
 import Logements from './components/logements'
@@ -17,7 +17,7 @@ class Profiladmin extends Component {
                     <div className="offset-1 row justify-content-md-center contouradmin">
                         <Identiteadmin />
                     </div>
-                   
+                   <Administration />
                     <Formations />
                     <Jobs />
                    <Logements />
